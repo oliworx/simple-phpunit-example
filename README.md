@@ -15,3 +15,5 @@ to run the actual programm (to test if 17 is a prime number):
 
 
 [![Build Status](https://travis-ci.org/oliworx/simple-phpunit-example.svg?branch=master)](https://travis-ci.org/oliworx/simple-phpunit-example)
+
+[ ![Codeship Status for oliworx/simple-phpunit-example](https://codeship.com/projects/2c42a010-dc15-0133-6fb4-1e79fc1c4a8a/status?branch=master)](https://codeship.com/projects/144009)

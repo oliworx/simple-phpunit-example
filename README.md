@@ -14,3 +14,4 @@ to run the actual programm (to test if 17 is a prime number):
     php isprime 17
 
 
+[![Build Status](https://travis-ci.org/oliworx/simple-phpunit-example.svg?branch=master)](https://travis-ci.org/oliworx/simple-phpunit-example)

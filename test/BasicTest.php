@@ -43,5 +43,26 @@ class BasicTest extends PHPUnit_Framework_TestCase
         );
 	}
 
+    /**
+     * @dataProvider nonPrimeProvider
+     */
+    public function testMultiNonPrimes($p)
+    {
+		$a = new Primes();
+		$this->assertFalse($a->isPrime($p), $p.' is not a prime number!');
+	}
+    
+    public function nonPrimeProvider($p)
+    {
+		return array(
+          array(6),
+          array(1223*1223),
+          array(1223*8831),
+          array(1223*105943),
+          array(1223*1301081),
+          array(1223*15487469),
+          array(179426549*179426549),
+        );
+	}
 }
 

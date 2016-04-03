@@ -9,12 +9,12 @@ class BasicTest extends PHPUnit_Framework_TestCase
     	// Arrange
         $a = new Primes();
         // Act
-        $prim = $a->isPrime(31);
+        $prim = $a->isPrime(179424691);
         // Assert
         $this->assertTrue($prim);
         
         // Assert False with error message
-        $this->assertFalse($a->isPrime(20), '20 is not a prime number!');
+        $this->assertFalse($a->isPrime(13873*14107), '195706411 is not a prime number!');
 
     }
 

@@ -22,6 +22,22 @@ class BasicTest extends PHPUnit_Framework_TestCase
         $this->assertFalse($a->isPrime(0), '0 is not a prime number!');
     }
     
+    public function testEndToEnd()
+    {
+		$last_line = system('php isprime.php 18', $retval);
+		$this->assertStringEndsWith('is not prime', $last_line);
+
+		$this->assertStringEndsWith('is prime',
+				system('php isprime.php 31', $retval));
+
+		$this->assertStringEndsWith('is prime',
+				system('php isprime.php 179426549', $retval));
+
+		$this->assertStringStartsWith('please provide a number as parameter',
+				system('php isprime.php', $retval),
+				'should print error message, if no number is given');
+    }
+
     /**
      * @dataProvider primeNumberProvider
      */
@@ -64,5 +80,6 @@ class BasicTest extends PHPUnit_Framework_TestCase
           array(179426549*179426549),
         );
 	}
+
 }
 

@@ -1,7 +1,7 @@
 <?php
 class Primes
 {
-    public function isPrime(int $n) {
+    public function isPrime($n) {
 		if ($n < 2 ) return false;
 
 		for ( $i = 2; $i * $i <= $n; $i++) {

@@ -22,3 +22,5 @@ Codeship [ ![Codeship Status for oliworx/simple-phpunit-example](https://codeshi
 Semaphore CI [![Build Status](https://semaphoreci.com/api/v1/oliworx/simple-phpunit-example/branches/master/badge.svg)](https://semaphoreci.com/oliworx/simple-phpunit-example)
 
 Drone.io [![Build Status](https://drone.io/github.com/oliworx/simple-phpunit-example/status.png)](https://drone.io/github.com/oliworx/simple-phpunit-example/latest)
+
+Snap CI [![Build Status](https://snap-ci.com/oliworx/simple-phpunit-example/branch/master/build_image)](https://snap-ci.com/oliworx/simple-phpunit-example/branch/master)

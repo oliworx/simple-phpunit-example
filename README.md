@@ -11,7 +11,7 @@ to run the tests with phpunit:
   
 to run the actual programm (to test if 17 is a prime number):
   
-    php isprime 17
+    php isprime.php 17
 
 Using these awesome free services for continuous integration:
 

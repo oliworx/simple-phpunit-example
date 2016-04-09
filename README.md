@@ -13,7 +13,9 @@ to run the actual programm (to test if 17 is a prime number):
   
     php isprime.php 17
 
-Using these awesome free services for continuous integration:
+### Using these awesome free services for continuous integration:
+
+Circle CI [![Circle CI](https://circleci.com/gh/oliworx/simple-phpunit-example.svg?style=svg)](https://circleci.com/gh/oliworx/simple-phpunit-example)
 
 Travis CI [![Build Status](https://travis-ci.org/oliworx/simple-phpunit-example.svg?branch=master)](https://travis-ci.org/oliworx/simple-phpunit-example)
 

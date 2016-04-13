@@ -9,7 +9,7 @@ to run the tests with phpunit:
   
     phpunit test/*
   
-to run the actual programm (to test if 17 is a prime number):
+to run the actual script (to test if 17 is a prime number):
   
     php isprime.php 17
 

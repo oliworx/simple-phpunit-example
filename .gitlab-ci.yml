@@ -1,4 +1,4 @@
 test:php:
-  image: phpunit
+  image: phpunit/phpunit
   script:
   - phpunit test/ --coverage-text

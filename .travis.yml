@@ -4,5 +4,7 @@ php:
 before_script:
   # Disable xdebug for speed.
   - phpenv config-rm xdebug.ini
+  - cat /proc/cpuinfo
+  - free -m
 
 script: phpunit

@@ -7,11 +7,11 @@ you will need
  
 to run the tests with phpunit:
   
-    phpunit test/*
+    phpunit
   
-to run the actual script (to test if 17 is a prime number):
+to run the actual script (to test if 2017 is a prime number):
   
-    php isprime.php 17
+    php isprime.php 2017
 
 ### Using these awesome free services for continuous integration:
 
@@ -22,7 +22,5 @@ Travis CI [![Build Status](https://travis-ci.org/oliworx/simple-phpunit-example.
 Codeship [ ![Codeship Status for oliworx/simple-phpunit-example](https://codeship.com/projects/2c42a010-dc15-0133-6fb4-1e79fc1c4a8a/status?branch=master)](https://codeship.com/projects/144009)
 
 Semaphore CI [![Build Status](https://semaphoreci.com/api/v1/oliworx/simple-phpunit-example/branches/master/badge.svg)](https://semaphoreci.com/oliworx/simple-phpunit-example)
-
-Drone.io [![Build Status](https://drone.io/github.com/oliworx/simple-phpunit-example/status.png)](https://drone.io/github.com/oliworx/simple-phpunit-example/latest)
 
 Snap CI [![Build Status](https://snap-ci.com/oliworx/simple-phpunit-example/branch/master/build_image)](https://snap-ci.com/oliworx/simple-phpunit-example/branch/master)

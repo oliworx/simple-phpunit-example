@@ -1,10 +1,11 @@
 language: php
 php:
   - 7.0
+  - 7.1
 before_script:
   # Disable xdebug for speed.
   - phpenv config-rm xdebug.ini
-  - cat /proc/cpuinfo
+  - lscpu
   - free -m
 
 script: phpunit

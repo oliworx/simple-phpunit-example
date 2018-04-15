@@ -2,9 +2,13 @@ machine:
   php:
     version: 7.0.4
 
+dependencies:
+  post:
+    - composer require phpunit/phpunit:6.* --no-progress
+
 test:
   override:
     - cat /proc/cpuinfo
     - free -m
     - mkdir -p $CIRCLE_TEST_REPORTS/phpunit
-    - phpunit --log-junit $CIRCLE_TEST_REPORTS/phpunit/junit.xml
+    - vendor/bin/phpunit --log-junit $CIRCLE_TEST_REPORTS/phpunit/junit.xml

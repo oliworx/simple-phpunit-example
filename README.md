@@ -1,16 +1,16 @@
 # simple-phpunit-example
-a very basic example to start with php and phpunit
+a very basic example to start with PHP and PHPUnit
 
 you will need 
- * php with xml support for the command line: `sudo apt-get install php-cli php-xml` or `sudo apt-get install php7.0-cli php7.0-xml`
- * phpunit, see https://phpunit.de/getting-started.html 
+ * PHP with xml support for the command line: `sudo apt-get install php-cli php-xml`
+ * PHPUnit, see https://phpunit.de/getting-started.html 
  
-to run the tests with phpunit:
-  
+run the tests with phpunit:
+
     phpunit
-  
-to run the actual script (to test if 2017 is a prime number):
-  
+
+run the actual script (to test if 2017 is a prime number):
+
     php isprime.php 2017
 
 ### Using these awesome free services for continuous integration:
@@ -22,3 +22,6 @@ Travis CI [![Build Status](https://travis-ci.org/oliworx/simple-phpunit-example.
 Codeship [ ![Codeship Status for oliworx/simple-phpunit-example](https://codeship.com/projects/2c42a010-dc15-0133-6fb4-1e79fc1c4a8a/status?branch=master)](https://codeship.com/projects/144009)
 
 Semaphore CI [![Build Status](https://semaphoreci.com/api/v1/oliworx/simple-phpunit-example/branches/master/badge.svg)](https://semaphoreci.com/oliworx/simple-phpunit-example)
+
+## License
+MIT License: <https://kurmis.mit-license.org>

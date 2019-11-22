@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Print PHP version
+      run: php --version
+    - name: Print PHPUnit version
+      run: phpunit --version  
+    - name: run tests with PHPUnit
+      run: phpunit

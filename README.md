@@ -15,9 +15,11 @@ run the actual script (to test if 2017 is a prime number):
 
 ### Using these awesome free services for continuous integration:
 
+GitHub Actions ![GitHub Actions Status](https://github.com/oliworx/simple-phpunit-example/workflows/CI/badge.svg)
+
 Circle CI [![Circle CI](https://circleci.com/gh/oliworx/simple-phpunit-example.svg?style=svg)](https://circleci.com/gh/oliworx/simple-phpunit-example)
 
-Travis CI [![Build Status](https://travis-ci.org/oliworx/simple-phpunit-example.svg?branch=master)](https://travis-ci.org/oliworx/simple-phpunit-example)
+Travis CI [![Travis Build Status](https://travis-ci.org/oliworx/simple-phpunit-example.svg?branch=master)](https://travis-ci.org/oliworx/simple-phpunit-example)
 
 Semaphore CI [![Build Status](https://semaphoreci.com/api/v1/oliworx/simple-phpunit-example/branches/master/badge.svg)](https://semaphoreci.com/oliworx/simple-phpunit-example)
 
